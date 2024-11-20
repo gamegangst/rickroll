@@ -2,10 +2,9 @@ import pygame
 import ctypes
 import time
 import os
-
-
 import webbrowser
 import random
+
 def play_music(midi_filename):
     '''Stream music_file in a blocking manner'''
     pygame.mixer.music.load(midi_filename)
