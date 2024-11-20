@@ -1,18 +1,5 @@
-import subprocess
-import sys
-import webbrowser
-import time
-
-# module import
 
 
-try:
-    import pygame
-except ImportError:
-    print("Устанавливаю pygame...")
-    # Передаем команду как список аргументов
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "pygame"])
-# courtesy of chatgpt, because I only need one custom module and for some reason I spent a lot of time trying to understand how to automatically install it through pip
 
 from funcs import *
 play_music('data/rickroll.mid')
