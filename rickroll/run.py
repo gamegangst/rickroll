@@ -16,11 +16,6 @@ while True:
 
     if user_input == "what":
         webbrowser.open(url="https://ru.wikipedia.org/wiki/Рикроллинг")
-
-    else:
-        title = "КОПИРАЙТ ИНКРИНЖМЕНТ"
-        mymessage = "Бро, ты выдал кринж, нет такой команды!!!!"
-        ctypes.windll.user32.MessageBoxW(0, mymessage, title, 0)
 # type in commands and get functions, nuff said
 
 
