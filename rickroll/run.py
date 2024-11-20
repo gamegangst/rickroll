@@ -1,6 +1,3 @@
-
-
-
 from funcs import *
 play_music('data/rickroll.mid')
 # plays midi version of never gonna give you up
